@@ -1,7 +1,10 @@
 # Rust Echo Server
+![Rust Version](https://img.shields.io/badge/rust-1.70%2B-blue.svg)  
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 A minimal but production-style TCP Echo Server written in Rust.  
 It demonstrates async networking with Tokio, structured logging with Tracing, robust error handling with Anyhow, and automated integration tests.
+
 
 ---
 
@@ -13,7 +16,6 @@ It demonstrates async networking with Tokio, structured logging with Tracing, ro
 - Automated integration test for roundtrip echo
 - Modular project layout (`main.rs`, `server.rs`, `handler.rs`, `tests/`)
 
----
 
 ## Quickstart
 
@@ -120,6 +122,5 @@ rust-echo-server/
 ## License
 
 Licensed under MIT. See [LICENSE](LICENSE) for details.
-
 
 
